@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OBD II Reader</string>
+    <string name="text_translation">Pierwszy przetłumaczony tekst !!</string>
+    <string name="send">Wyślij</string>
+    <string name="not_connected">Nie połączono z urządzeniem</string>
+    <string name="title_connecting">Łączenie...</string>
+    <string name="title_connected_to">Połączono:</string>
+    <string name="title_not_connected">Nie połączono</string>
+    <string name="scanning">Wyszukiwanie urządzeń...</string>
+    <string name="select_device">"Wybierz urządzenie "</string>
+    <string name="none_paired">Nie sparowano urządzenia</string>
+    <string name="none_found">Nie znaleziono urządze</string>
+    <string name="title_paired_devices">Sparowane urządzeina</string>
+    <string name="title_other_devices">Inne dostępne urządzenia</string>
+    <string name="button_scan">Wyszukiwanie urządzeń</string>
+    <string name="connect">Połącz z urządzeniem</string>
+    <string name="open">Otwórz</string>
+    <string name="close">Zamknij</string>
+    <string name="discoverable">Widoczny dla innych urządzeń</string>
+    <string name="bt_not_enabled_leaving">Nie włączono bluetooth</string>
+    <string name="findDevices">Wyszukiwanie urządzeń</string>
+    <string name="makeVisible">Uwidocznij urządzenie</string>
+    <string name="openbt">Otwórz bluetooth</string>
+    <string name="toolbarTitle">OBD II</string>
+    <string name="settings">Ustawienia</string>
+    <string name="change_language">Zmień język</string>
+    <string name="read_current_data">Dane realne</string>
+    <string name="read_faults">Czytaj błędy</string>
+    <string name="terminal">Terminal</string>
+    <string name="info">Info</string>
+    <string name="info_text">OBD II Reader jest bezpłatnym narzędziem diagnostycznym.
+        Wymaga osobnego zakupu interfejsu bluetooth ELM327.
+        Jest to wymagane, aby utworzyć połączenie aplikacji z telefonem.</string>
+    <string name="enter_pid">Wprowadź PID</string>
+    <string name="intake_air_temp">Temp powietrza</string>
+    <string name="voltage">Volt</string>
+    <string name="engine_load">Obciążenie silnika %</string>
+
+
+    <string name="coolant_temp">Temp wody</string>
+    <string name="speed">Prędkość</string>
+    <string name="rpm">RPM</string>
+    <string name="maf">MAF</string>
+    <string name="short_term_fuel_trim_bank_1">Krótkie czasy wtrysków—Bank 1 </string>
+    <string name="short_term_fuel_trim_bank_2">Krótkie czasy wtrysków—Bank 2 </string>
+    <string name="long_term_fuel_trim_bank_1">Długie czasy wtrysków—Bank 1 </string>
+    <string name="long_term_fuel_trim_bank_2">Długie czasy wtrysków—Bank 2 </string>
+    <string name="fuel_pressure">Ciśnienie paliwa</string>
+    <string name="intake_manifold_absolute_pressure">Ciśnienie absolutne kolektora dolotowego</string>
+    <string name="timing_advance">Czas wyprzedzenia</string>
+    <string name="run_time_since_engine_start">Czas pracy od uruchomienia silnika</string>
+    <string name="distance_traveled_with_malfunction_indicator_lamp">Odległość przebyta z lampką kontrolną awarii</string>
+    <string name="fuel_rail_pressure">Cieśnieni na listwie wtryskowej</string>
+    <string name="egr">EGR</string>
+    <string name="fuel_level">Fuel level</string>
+    <string name="absolute_barometric_pressure">Całkowite ciśnienie barometryczne</string>
+    <string name="throttle_position">Pozycja pedału gazu</string>
+    <string name="relative_throttle_position">Relatywna pozycja pedału gazu</string>
+    <string name="engine_oil_temperature">Temperatura oleju</string>
+    <string name="vin">VIN</string>
+
+
+</resources>

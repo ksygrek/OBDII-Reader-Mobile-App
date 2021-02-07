@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">OBD II Reader</string>
+    <string name="toolbarTitle">OBD II</string>
+    <string name="openbt">Open Bluetooth</string>
+    <string name="makeVisible">Make Bluetooth Visible</string>
+    <string name="findDevices">Find Devices</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="settings">Settings</string>
+    <string name="change_language">Change language</string>
+    <string name="read_current_data">Read current data</string>
+    <string name="read_faults">Read faults</string>
+    <string name="terminal">Terminal</string>
+    <string name="info">Info</string>
+    <string name="info_text">OBD II Reader is a diagnostic scan tool and the App is free to install
+        but does require the purchase of the ELM327 Bluetooth connector
+        to communicate with your vehicle.</string>
+    <string name="enter_pid">Enter PID</string>
+    <string name="intake_air_temp">Intake Air Temp</string>
+    <string name="voltage">Voltage</string>
+    <string name="engine_load">Engine load %</string>
+
+
+
+    <string name="coolant_temp">Coolant temp</string>
+    <string name="speed">Speed</string>
+    <string name="rpm">RPM</string>
+    <string name="maf">MAF</string>
+    <string name="short_term_fuel_trim_bank_1">Short term fuel trim—Bank 1 </string>
+    <string name="short_term_fuel_trim_bank_2">Short term fuel trim—Bank 2 </string>
+    <string name="long_term_fuel_trim_bank_1">Long term fuel trim—Bank 1 </string>
+    <string name="long_term_fuel_trim_bank_2">Long term fuel trim—Bank 2 </string>
+    <string name="fuel_pressure">Fuel pressure</string>
+    <string name="intake_manifold_absolute_pressure">Intake manifold absolute pressure</string>
+    <string name="timing_advance">Timing advance</string>
+    <string name="run_time_since_engine_start">Run time since engine start</string>
+    <string name="distance_traveled_with_malfunction_indicator_lamp">Distance traveled with malfunction indicator lamp</string>
+    <string name="fuel_rail_pressure">Fuel Rail Pressure</string>
+    <string name="egr">EGR</string>
+    <string name="fuel_level">Fuel level</string>
+    <string name="absolute_barometric_pressure">Absolute Barometric Pressure</string>
+    <string name="throttle_position">Throttle position</string>
+    <string name="relative_throttle_position">Relative throttle position</string>
+    <string name="engine_oil_temperature">Engine oil temperature</string>
+    <string name="vin">VIN</string>
+    
+    <!--                 -->
+
+    <string name="text_translation">First translated text !!</string>
+
+    <string-array name="language_option">
+        <item>English</item>
+        <item>Polish</item>
+    </string-array>
+
+</resources>

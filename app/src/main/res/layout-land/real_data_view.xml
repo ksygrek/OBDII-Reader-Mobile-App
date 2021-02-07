@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#0d0d0d"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/speedView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            app:sv_backgroundCircleColor="#0d0d0d"
+            app:sv_highSpeedColor="#1a1a1a"
+            app:sv_indicator="NeedleIndicator"
+            app:sv_indicatorColor="#ff0000"
+            app:sv_indicatorLightColor="#800000"
+            app:sv_indicatorWidth="@dimen/labels_text_size"
+            app:sv_lowSpeedColor="#1a1a1a"
+            app:sv_maxSpeed="240"
+            app:sv_mediumSpeedColor="#1a1a1a"
+            app:sv_minSpeed="0"
+            app:sv_speedTextColor="@color/white"
+            app:sv_speedTextPosition="CENTER"
+            app:sv_speedometerMode="TOP"
+            app:sv_textColor="@color/white"
+            app:sv_textSize="14dp"
+            app:sv_unit="km/h"
+            app:sv_unitTextColor="@color/white"
+            app:sv_unitUnderSpeedText="true"
+            app:sv_withIndicatorLight="true"
+
+            />
+
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/rpmView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/speedView"
+            app:sv_backgroundCircleColor="#0d0d0d"
+            app:sv_highSpeedColor="#800000"
+            app:sv_indicator="NeedleIndicator"
+            app:sv_indicatorColor="#ff0000"
+            app:sv_indicatorLightColor="#800000"
+            app:sv_indicatorWidth="@dimen/labels_text_size"
+            app:sv_lowSpeedColor="#000000"
+            app:sv_maxSpeed="7000"
+            app:sv_tickRotation="false"
+            app:sv_mediumSpeedColor="#000000"
+            app:sv_mediumSpeedPercent="80"
+            app:sv_minSpeed="0"
+            app:sv_speedTextColor="@color/white"
+            app:sv_speedTextPosition="CENTER"
+            app:sv_speedometerMode="BOTTOM"
+            app:sv_textColor="@color/white"
+            app:sv_textSize="14dp"
+            app:sv_unit="RPM"
+
+            app:sv_unitTextColor="@color/white"
+            app:sv_unitUnderSpeedText="true"
+            app:sv_withIndicatorLight="true" />
+
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/coolantTempView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rpmView"
+            android:layout_alignParentLeft="true"
+            app:sv_backgroundCircleColor="#0d0d0d"
+            app:sv_endDegree="360"
+            app:sv_highSpeedColor="#800000"
+            app:sv_indicator="NeedleIndicator"
+            app:sv_indicatorColor="#ff0000"
+            app:sv_indicatorLightColor="#800000"
+            app:sv_lowSpeedColor="#1a1a1a"
+            app:sv_maxSpeed="130"
+            app:sv_tickRotation="false"
+            app:sv_mediumSpeedColor="#1a1a1a"
+            app:sv_mediumSpeedPercent="75"
+            app:sv_minSpeed="60"
+            app:sv_speedTextColor="@color/white"
+            app:sv_startDegree="180"
+            app:sv_textColor="@color/white"
+            app:sv_textSize="14dp"
+            app:sv_unit="Coolant Temp"
+            app:sv_unitTextColor="@color/white"
+            app:sv_unitUnderSpeedText="true"
+            app:sv_withIndicatorLight="true"
+            app:sv_speedTextPosition="CENTER"
+            app:sv_speedometerMode="TOP"/>
+
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/intakeAirTempView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rpmView"
+            android:layout_toRightOf="@id/coolantTempView"
+            app:sv_backgroundCircleColor="#0d0d0d"
+            app:sv_endDegree="360"
+            app:sv_highSpeedColor="#1a1a1a"
+            app:sv_indicator="NeedleIndicator"
+            app:sv_indicatorColor="#ff0000"
+            app:sv_indicatorLightColor="#800000"
+            app:sv_lowSpeedColor="#1a1a1a"
+            app:sv_maxSpeed="30"
+            app:sv_tickRotation="false"
+            app:sv_mediumSpeedColor="#1a1a1a"
+            app:sv_minSpeed="-30"
+            app:sv_speedTextColor="@color/white"
+            app:sv_startDegree="180"
+            app:sv_textColor="@color/white"
+            app:sv_textSize="12dp"
+            app:sv_unit="Intake Air Temp"
+            app:sv_unitTextColor="@color/white"
+            app:sv_unitUnderSpeedText="true"
+            app:sv_withIndicatorLight="true" />
+
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/voltageView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coolantTempView"
+            app:sv_backgroundCircleColor="#0d0d0d"
+            app:sv_highSpeedColor="#800000"
+            app:sv_indicator="NeedleIndicator"
+            app:sv_indicatorColor="#ff0000"
+            app:sv_indicatorLightColor="#800000"
+            app:sv_lowSpeedColor="#000000"
+            app:sv_maxSpeed="18"
+            app:sv_tickRotation="false"
+            app:sv_mediumSpeedColor="#000000"
+            app:sv_minSpeed="0"
+            app:sv_speedTextColor="@color/white"
+            app:sv_textColor="@color/white"
+            app:sv_textSize="14dp"
+            app:sv_unit="V"
+            app:sv_unitTextColor="@color/white"
+            app:sv_unitUnderSpeedText="false"
+            app:sv_withIndicatorLight="true"
+            app:sv_speedTextPosition="BOTTOM_CENTER"
+            app:sv_speedometerMode="BOTTOM"/>
+
+        <com.github.anastr.speedviewlib.SpeedView
+            android:id="@+id/engineLoadView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intakeAirTempView"
+            android:layout_toRightOf="@id/voltageView"
+            app:sv_backgroundCircleColor="#0d0d0d"
+            app:sv_endDegree="360"
+            app:sv_highSpeedColor="#1a1a1a"
+            app:sv_indicator="NeedleIndicator"
+            app:sv_indicatorColor="#ff0000"
+            app:sv_indicatorLightColor="#800000"
+            app:sv_lowSpeedColor="#1a1a1a"
+            app:sv_maxSpeed="100"
+            app:sv_tickRotation="false"
+            app:sv_mediumSpeedColor="#1a1a1a"
+            app:sv_minSpeed="0"
+            app:sv_speedTextColor="@color/white"
+            app:sv_startDegree="180"
+            app:sv_textColor="@color/white"
+            app:sv_textSize="12dp"
+            app:sv_unit="Engine load %"
+            app:sv_unitTextColor="@color/white"
+            app:sv_unitUnderSpeedText="true"
+            app:sv_withIndicatorLight="true" />
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/speedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/voltageView"
+            android:textColor="@color/white" />
+
+
+
+    </RelativeLayout>
+</ScrollView>
