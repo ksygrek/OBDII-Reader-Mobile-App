@@ -1,4 +1,5 @@
 
 # OBD II Reader
 
-Aplikacja do komunikacji z pojazdem poprzez port OBD II, z użyciem interfejsu ELM 327 do obsługi danych ze sterownika silnika.
+Mobile app to communicate with vehicle via Bluetooth interface ELM327, for reading data from the engine control unit.
+
