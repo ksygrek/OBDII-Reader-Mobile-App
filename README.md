@@ -3,7 +3,5 @@
 
 Mobile app to communicate with vehicle via Bluetooth interface ELM327, for reading data from the engine control unit.
 
-![logo](https://github.com/ksygrek/OBDII-Reader-Mobile-App/tree/master/img/2.png)
+![logo](https://drive.google.com/file/d/12wMo7Gdj4NaAprVFcILNQB8lsek6KUA4/view?usp=sharing)
 
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
