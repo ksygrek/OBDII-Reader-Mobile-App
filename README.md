@@ -4,9 +4,9 @@
 Mobile app to communicate with vehicle via Bluetooth interface ELM327, for reading data from the engine control unit.
 
 Features:
-*Real time data
-*Terminal
-*EN, PL languages
+* Real time data
+* Terminal
+* EN, PL languages
 
 ECU real time data:
   -RPM 
